@@ -1,0 +1,18 @@
+Inspection date: 2026-10-12 (America/New_York)
+OS reported by .NET: 
+Microsoft Windows NT 10.0.26200.0
+Architecture: 
+X64
+Node: 
+v24.19.0
+Git: 
+git version 2.53.0.windows.3
+
+Name   : git.exe
+Source : C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1005-1301-0_26.1005.1301.0_x64__3k8sg7r9htsxt\dependencies\native\git\cmd\git.exe
+
+Name   : node.exe
+Source : C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1005-1301-0_26.1005.1301.0_x64__3k8sg7r9htsxt\dependencies\node\bin\node.exe
+
+
+Only git and node were detected on PATH from this probe. npm/TypeScript/Python were accessed from local or bundled runtimes. Get-CimInstance Win32_OperatingSystem was denied; no remote Mac or physical iPhone/glasses connection was detected or supplied.

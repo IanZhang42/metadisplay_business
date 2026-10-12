@@ -1,0 +1,31 @@
+npm notice run test
+npm notice run node --test test/*.test.ts
+✔ compiled JavaScript server starts, responds to health and authenticates session creation (160.9921ms)
+✔ consent required; partials never become notes or commands (39.9795ms)
+✔ out-of-order and duplicate transcript callbacks cannot regress drafts (19.7675ms)
+✔ recipient corrections invalidate literal confirmation and approval (24.9289ms)
+✔ full review required; exact subject/body/link freeze; edit disarms (20.7424ms)
+✔ unarmed, stale pre-arm, wrong epoch, partial, substring and expired cues do not send (28.5515ms)
+✔ valid simulated cue yields DRY_RUN; repeated callbacks never dispatch (21.7618ms)
+✔ live requires hardware verification, HFP, and allowlisted recipient (45.3106ms)
+✔ Meta Speech cannot arm without an audio capture timestamp (17.5769ms)
+✔ unset rehearsed cue blocks arming; no assumed sentence is used (17.4301ms)
+✔ Arnav’s configured complete reveal sentence tolerates typography, not paraphrases (21.3537ms)
+✔ one approved live message dispatches once even during duplicate cue race (21.8333ms)
+✔ interruption/disconnect disarms; old source callbacks cannot send (18.8179ms)
+✔ provider timeout persists UNKNOWN and does not retry after restart (23.3154ms)
+✔ restart after committed SENDING is UNKNOWN, never automatic redispatch (18.8945ms)
+✔ new session purges previous prospect and invalidates every old cue (19.226ms)
+✔ transcript instructions cannot change recipient, URL, authority or fabricate a promise (15.3248ms)
+✔ session authorization, encryption at rest, deletion and expiry (15.7388ms)
+✔ Gmail MIME literal body and encoded subject prevent header injection (0.371ms)
+✔ Gmail fake transport: token failure never dispatches; timeout is UNKNOWN; acceptance needs ID (2.442ms)
+✔ HTTP auth, bad JSON, health, owner session flow and no public send endpoint (140.5311ms)
+ℹ tests 21
+ℹ suites 0
+ℹ pass 21
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 688.6224
