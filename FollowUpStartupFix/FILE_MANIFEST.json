@@ -1,0 +1,8 @@
+{
+  "apply.sh": "58f795d748a86d3860c2425296fd5cb9748db1c4184580acd0e1ea885b946e20",
+  "ios/FollowUp/FollowUpApp.swift": "3f95c41b650228eaa5d7cbf6febf0457ec6e210a636992f8328f33f649d4f6e7",
+  "ios/FollowUp/Models.swift": "ed8d1b04099c2fd0fd7c5443d856857b6d8e57cf37a3a98d355239430fdb3c71",
+  "ios/FollowUpTests/FollowUpTests.swift": "484f314a680ac6b0a7ef1c6f6d98d3a08c4f501ac183e9d83b04f1662e001887",
+  "README.md": "d326399a3445aec3ec4b0b18ad1af1a72ced6cb22090e7c48f6809d3057930d4",
+  "scripts/mac-check.sh": "381a4de10396a1933d36610471de966af3762bd1f14e1cd0fd4e2467d7ecb714"
+}
